@@ -1,5 +1,3 @@
-require 'rails_helper'
-
 feature 'Can visit homepage' do
     context 'with log in and signup' do
         before do 
