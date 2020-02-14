@@ -20,4 +20,12 @@ feature 'User can' do
         click_on 'Log in'
         expect(page).to have_content 'Invalid Email or password.'
     end
+
+    it 'get an error message if the email is wrong' do
+        click_on 'Login'
+        fill_in 'user_email', with: 'mail@mail.com'
+        fill_in 'user_password', with: '12345678'
+        click_on 'Log in'
+        expect(page).to have_content 'Invalid Email or password.'
+    end 
 end
