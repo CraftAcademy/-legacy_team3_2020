@@ -60,8 +60,6 @@ feature 'user can sign up' do
       expect(page).to have_content 'Password is too short (minimum is 8 characters)'
     end
   end
-
-
 end
 
   

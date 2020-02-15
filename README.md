@@ -108,6 +108,7 @@ The app is being created in Ruby
 The framework in wich we have worked is Rails
 The app was tested in Rspec
 We follow the status and progress of our work with Coveralls and Semaphore
+We create this Readme file based on the amazing work of karro readme
 
 
 Updates/Improvement Plans
